@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../images/bg1.jpg'); /* Correct path if CSS is in /css and image is in /images */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* Login box styling */
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  margin-top: 250px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency for better background view */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color: #ff7e5f;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eb6751;
+}
+
+.secondary-btn {
+  background-color: #6c757d;
+  margin-top: 10px;
+}
+
+.secondary-btn:hover {
+  background-color: #5a6268;
+}

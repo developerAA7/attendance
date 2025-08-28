@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/db1.jpg');
+  background-size:auto;
+  background-position: center;
+  background-repeat: repeat;
+  color: #fff;
+}
+
+.dashboard {
+  max-width: 500px;
+  margin: 100px auto;
+  background-color:#9f9f9b;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin-top: 260px;
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  background-color: #486de6;
+  color: #f6f7f8;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.logout {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.logout:hover {
+  background-color: #d93636;
+}
